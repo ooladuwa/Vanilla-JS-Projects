@@ -1,0 +1,46 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url("./poker_table.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+.message-el {
+  font-style: italic;
+}
+
+#cards-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#player-div {
+  border-right: 2px solid black;
+  margin-right: 1rem;
+  padding-right: 1rem;
+}
+
+#dealer-div {
+}
+
+button {
+  color: #016f32;
+  width: 150px;
+  background: goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
